@@ -37,8 +37,8 @@ T.Interior = {
     Parts = {
         door = {
             model = "models/FuzzyLeo/magicdoor/magicdoordoor.mdl",
-            posoffset = Vector(26, 0, -51.65),
-            angoffset = Angle(0, 180, 0),
+            posoffset = Vector(99.30875, 0.326088, -51.554375),
+            angoffset = Angle(0.285, 179.987, 0.006),
         },
     },
 }
