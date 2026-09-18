@@ -50,8 +50,8 @@ T.Exterior = {
     Portal = {
         pos = Vector(7.07, -2.19, 42.97),
         ang = Angle(0, 0, 0),
-        width = 14,
-        height = 86,
+        width = 48.5,
+        height = 108.5,
     },
 
     Fallback = {
