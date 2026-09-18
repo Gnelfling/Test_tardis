@@ -1,20 +1,5 @@
----@class part_lighthouse_door : gmod_tardis_part
-local PART = {}
-
-PART.ID = "lighthouse_door"
-PART.Name = "Lighthouse Door"
-PART.Model = "models/fuzzyleo/magicdoor/treedoor.mdl"
-PART.AutoSetup = true
-PART.AutoPosition = true
-PART.Animate = true
-PART.AnimateSpeed = 1.5
-PART.Collision = true
-PART.PortalNoCollide = true
-PART.NoStrictUse = true
-PART.BypassIsomorphic = true
-
--- No custom state is needed yet.
--- If state is added later, namespace it with lighthouse_shed_ and use
--- self:GetData()/self:SetData().
-
-TARDIS:AddPart(PART)
+-- Intentionally disabled.
+-- The Mini Pack tree door uses TARDIS's existing core part with ID "door".
+-- Its standard implementation drives the model's "switch" pose parameter and
+-- synchronizes the interior/exterior door state. Do not register a competing
+-- lighthouse-specific part here.

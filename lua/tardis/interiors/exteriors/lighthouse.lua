@@ -7,21 +7,18 @@ E.ID = "lighthouse_shed"
 E.Name = "Lighthouse"
 E.Base = "base"
 
-E.Model = "models/fuzzyleo/magicdoor/treeframe.mdl"
+E.Model = "models/FuzzyLeo/magicdoor/treeframe.mdl"
+E.DoorAnimationTime = 0.7
 
 E.Portal = {
-    -- Placeholder values: tune against the exterior frame in-game.
-    pos = Vector(0, 0, 0),
+    pos = Vector(7.07, -2.19, 42.97),
     ang = Angle(0, 0, 0),
-    width = 64,
-    height = 96,
-    thickness = 42,
-    inverted = true,
+    width = 14,
+    height = 86,
 }
 
--- Deliberately different from Portal.pos.
 E.Fallback = {
-    pos = Vector(100, 0, 0),
+    pos = Vector(25, 0, 5),
     ang = Angle(0, 0, 0),
 }
 
@@ -34,11 +31,12 @@ E.Light = {
     dynamicsize = 256,
 }
 
+-- Override the existing core "door" part; do not register a second
+-- lighthouse-specific animation part.
 E.Parts = {
-    lighthouse_door = {
-        model = "models/fuzzyleo/magicdoor/treedoor.mdl",
-        posoffset = Vector(0, 0, 0),
-        angoffset = Angle(0, -90, 0),
+    door = {
+        model = "models/FuzzyLeo/magicdoor/treedoor.mdl",
+        posoffset = Vector(-7.07, 2.19, -42.97),
     },
 }
 

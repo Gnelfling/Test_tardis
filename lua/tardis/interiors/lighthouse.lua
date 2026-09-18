@@ -20,7 +20,6 @@ T.Interior = {
     },
 
     -- Deliberately different from Portal.pos.
-    -- Reusing the portal position can leave players stuck after arrival.
     Fallback = {
         pos = Vector(0, 100, 0),
         ang = Angle(0, 0, 0),
@@ -33,11 +32,11 @@ T.Interior = {
         warn_brightness = 1,
     },
 
+    -- Use the registered core "door" part so its standard switch pose
+    -- parameter animation and state synchronization are used.
     Parts = {
-        lighthouse_door = {
-            model = "models/fuzzyleo/magicdoor/treedoor.mdl",
-            pos = Vector(0, 0, 0),
-            ang = Angle(0, 0, 0),
+        door = {
+            model = "models/FuzzyLeo/magicdoor/treedoor.mdl",
         },
     },
 }
