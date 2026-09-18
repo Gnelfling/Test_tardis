@@ -32,11 +32,43 @@ T.Interior = {
         warn_brightness = 1,
     },
 
-    -- Use the registered core "door" part so its standard switch pose
-    -- parameter animation and state synchronization are used.
+    -- Keep the interior-side core door part.
     Parts = {
         door = {
             model = "models/FuzzyLeo/magicdoor/treedoor.mdl",
+        },
+    },
+}
+
+T.Exterior = {
+    Model = "models/FuzzyLeo/magicdoor/treeframe.mdl",
+    DoorAnimationTime = 0.7,
+
+    Portal = {
+        pos = Vector(7.07, -2.19, 42.97),
+        ang = Angle(0, 0, 0),
+        width = 14,
+        height = 86,
+    },
+
+    Fallback = {
+        pos = Vector(25, 0, 5),
+        ang = Angle(0, 0, 0),
+    },
+
+    Light = {
+        enabled = true,
+        pos = Vector(0, 0, 100),
+        color = Color(255, 220, 170),
+        dynamicpos = Vector(0, 0, 100),
+        dynamicbrightness = 2,
+        dynamicsize = 256,
+    },
+
+    Parts = {
+        door = {
+            model = "models/FuzzyLeo/magicdoor/treedoor.mdl",
+            posoffset = Vector(-7.07, 2.19, -42.97),
         },
     },
 }
