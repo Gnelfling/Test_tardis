@@ -15,17 +15,15 @@ T.Interior = {
     },
 
     Portal = {
-        pos = Vector(0.736903, -138.031342, -269.088501),
+        pos = Vector(0.7369, -162.16, -264.18),
         ang = Angle(0, -90, 0),
-        -- TODO: measure the Magic Door frame and replace these placeholders.
-        width = 64,
-        height = 96,
+        width = 46.5,
+        height = 100.5,
         thickness = -5,
     },
 
     Fallback = {
-        -- TODO: measure a safe floor position in the interior model before replacing this placeholder.
-        pos = Vector(0, 100, 0),
+        pos = Vector(-0.035645, -255.151367, -315.969727),
         ang = Angle(0, 0, 0),
     },
 
