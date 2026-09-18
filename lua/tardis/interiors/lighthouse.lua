@@ -1,7 +1,7 @@
 -- Partial definitions completed at runtime.
 ---@diagnostic disable: missing-fields
 
-local T = {}
+local T = TARDIS:NewInterior()
 
 T.Base = "base"
 T.Name = "Lighthouse"
@@ -23,7 +23,6 @@ T.Interior = {
         thickness = -5,
     },
 
-    -- Deliberately different from Portal.pos.
     Fallback = {
         pos = Vector(0, 100, 0),
         ang = Angle(0, 0, 0),
@@ -72,6 +71,12 @@ T.Exterior = {
         door = {
             model = "models/FuzzyLeo/magicdoor/treedoor.mdl",
             posoffset = Vector(-7.07, 2.19, -42.97),
+        },
+        vortex = {
+            model = "models/props_skybox/coast01.mdl",
+            pos = Vector(0, 0, 50),
+            ang = Angle(0, 0, 0),
+            scale = 1,
         },
     },
 }
