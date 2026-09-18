@@ -1,7 +1,7 @@
 -- Partial definitions completed at runtime.
 ---@diagnostic disable: missing-fields
 
-local T = TARDIS:NewInterior()
+local T = {}
 
 T.Base = "base"
 T.Name = "Lighthouse"

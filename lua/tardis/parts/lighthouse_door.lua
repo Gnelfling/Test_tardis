@@ -1,5 +1,5 @@
 ---@class part_lighthouse_door : gmod_tardis_part
-local PART = TARDIS:NewPart()
+local PART = {}
 
 PART.ID = "lighthouse_door"
 PART.Name = "Lighthouse Door"

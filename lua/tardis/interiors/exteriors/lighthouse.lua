@@ -1,7 +1,7 @@
 -- Partial definitions completed at runtime.
 ---@diagnostic disable: missing-fields
 
-local E = TARDIS:NewExterior()
+local E = {}
 
 E.ID = "lighthouse_shed"
 E.Name = "Lighthouse"
