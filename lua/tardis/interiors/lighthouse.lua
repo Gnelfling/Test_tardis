@@ -15,9 +15,8 @@ T.Interior = {
     },
 
     Portal = {
-        -- Placeholder values: tune against the lighthouse model in-game.
-        pos = Vector(0, 0, 0),
-        ang = Angle(0, 0, 0),
+        pos = Vector(0.736903, -138.031342, -269.088501),
+        ang = Angle(0, -90, 0),
         width = 64,
         height = 96,
         thickness = -5,
@@ -37,13 +36,13 @@ T.Interior = {
 
     Parts = {
         door = {
-            model = "models/FuzzyLeo/magicdoor/treedoor.mdl",
+            model = "models/FuzzyLeo/magicdoor/magicdoordoor.mdl",
         },
     },
 }
 
 T.Exterior = {
-    Model = "models/FuzzyLeo/magicdoor/treeframe.mdl",
+    Model = "models/FuzzyLeo/magicdoor/magicdoorframe.mdl",
     DoorAnimationTime = 0.7,
 
     Portal = {
@@ -69,7 +68,7 @@ T.Exterior = {
 
     Parts = {
         door = {
-            model = "models/FuzzyLeo/magicdoor/treedoor.mdl",
+            model = "models/FuzzyLeo/magicdoor/magicdoordoor.mdl",
             posoffset = Vector(-7.07, 2.19, -42.97),
         },
         vortex = {
