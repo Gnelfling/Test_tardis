@@ -10,6 +10,10 @@ T.ID = "lighthouse_shed"
 T.Interior = {
     Model = "models/HalfLife2BakedCoast/Coast_House22.mdl",
 
+    Sounds = {
+        Idle = {},
+    },
+
     Portal = {
         -- Placeholder values: tune against the lighthouse model in-game.
         pos = Vector(0, 0, 0),
@@ -32,7 +36,6 @@ T.Interior = {
         warn_brightness = 1,
     },
 
-    -- Keep the interior-side core door part.
     Parts = {
         door = {
             model = "models/FuzzyLeo/magicdoor/treedoor.mdl",
