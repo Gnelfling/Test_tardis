@@ -3,7 +3,7 @@ local PART = TARDIS:NewPart()
 
 PART.ID = "lighthouse_door"
 PART.Name = "Lighthouse Door"
-PART.Model = "models/fuzzyleo/magicdoor/magicdoordoor.mdl"
+PART.Model = "models/fuzzyleo/magicdoor/treedoor.mdl"
 PART.AutoSetup = true
 PART.AutoPosition = true
 PART.Animate = true

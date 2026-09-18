@@ -7,7 +7,7 @@ E.ID = "lighthouse_shed"
 E.Name = "Lighthouse"
 E.Base = "base"
 
-E.Model = "models/fuzzyleo/magicdoor/magicdoorframe.mdl"
+E.Model = "models/fuzzyleo/magicdoor/treeframe.mdl"
 
 E.Portal = {
     -- Placeholder values: tune against the exterior frame in-game.
@@ -36,7 +36,7 @@ E.Light = {
 
 E.Parts = {
     lighthouse_door = {
-        model = "models/fuzzyleo/magicdoor/magicdoordoor.mdl",
+        model = "models/fuzzyleo/magicdoor/treedoor.mdl",
         posoffset = Vector(0, 0, 0),
         angoffset = Angle(0, -90, 0),
     },

@@ -35,7 +35,7 @@ T.Interior = {
 
     Parts = {
         lighthouse_door = {
-            model = "models/fuzzyleo/magicdoor/magicdoordoor.mdl",
+            model = "models/fuzzyleo/magicdoor/treedoor.mdl",
             pos = Vector(0, 0, 0),
             ang = Angle(0, 0, 0),
         },
