@@ -17,12 +17,14 @@ T.Interior = {
     Portal = {
         pos = Vector(0.736903, -138.031342, -269.088501),
         ang = Angle(0, -90, 0),
+        -- TODO: measure the Magic Door frame and replace these placeholders.
         width = 64,
         height = 96,
         thickness = -5,
     },
 
     Fallback = {
+        -- TODO: measure a safe floor position in the interior model before replacing this placeholder.
         pos = Vector(0, 100, 0),
         ang = Angle(0, 0, 0),
     },
@@ -37,6 +39,8 @@ T.Interior = {
     Parts = {
         door = {
             model = "models/FuzzyLeo/magicdoor/magicdoordoor.mdl",
+            posoffset = Vector(26, 0, -51.65),
+            angoffset = Angle(0, 180, 0),
         },
     },
 }
