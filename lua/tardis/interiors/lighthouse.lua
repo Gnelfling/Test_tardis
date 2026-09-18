@@ -15,7 +15,7 @@ T.Interior = {
     },
 
     Portal = {
-        pos = Vector(1.535156, -256.522461, -315.354492)    ,
+        pos = Vector(1.535156, -256.522461, -157.677246)    ,
         ang = Angle(0, 90, 0),
         width = 46.5,
         height = 100.5,
@@ -23,7 +23,7 @@ T.Interior = {
     },
 
     Fallback = {
-        pos = Vector(1.535156, -256.522461, -315.354492),
+        pos = Vector(1.535156, -256.522461, -157.677246),
         ang = Angle(0, 0, 0),
     },
 
@@ -37,7 +37,7 @@ T.Interior = {
     Parts = {
         door = {
             model = "models/FuzzyLeo/magicdoor/magicdoordoor.mdl",
-            posoffset = Vector(1.535156, -256.522461, -315.354492),
+            posoffset = Vector(1.535156, -256.522461, -157.677246),
             angoffset = Angle(0, 180, 0),
         },
     },
@@ -71,7 +71,7 @@ T.Exterior = {
     Parts = {
         door = {
             model = "models/FuzzyLeo/magicdoor/magicdoordoor.mdl",
-            posoffset = Vector(-6.905, 0 ,-54.988),
+            posoffset = Vector(-6.905, 0 ,-27.494),
         },
         vortex = {
             model = "models/props_skybox/coast01.mdl",
