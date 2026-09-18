@@ -15,8 +15,8 @@ T.Interior = {
     },
 
     Portal = {
-        pos = Vector(0.7369, -162.16, -264.18),
-        ang = Angle(0, -90, 0),
+        pos = Vector(1.062988, -261.468750, -315.734375),
+        ang = Angle(0, 90, 0),
         width = 46.5,
         height = 100.5,
         thickness = -5,
@@ -48,7 +48,7 @@ T.Exterior = {
     DoorAnimationTime = 0.7,
 
     Portal = {
-        pos = Vector(0, 0, 0),
+        pos = Vector(10, 0, 54.25),
         ang = Angle(0, 0, 0),
         width = 48.5,
         height = 108.5,
